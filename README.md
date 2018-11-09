@@ -46,4 +46,20 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 =======
 # trello-app
 hacsys mockup project
+
+# Routes
+/ = Stands for the Login view
+/register = Stands for the Register view
+/board = Stands for the Board view
+
+# Things to do
+-If the user has already an account, validate the data and redirect to /board
+-If the user doesn't have an account, validate the data of /register and redirect to /
+-Make a better semantic use of BEM
+-Use SASS
+-Make responsive the /board when creating a lot of boards with auto-fit
+-Make event buttons when copying/deleting/updating an actual board via DOM
+-When clicking the span to order the boards by list or group, re-arrange the grid-container
+-Make fully supported the CSS Grid by using @support
+-Make @support fully supported LOL
 >>>>>>> 0e7ea1853eb8de00f7d9ffb4f9f20e700ce2ff00
